@@ -8,9 +8,9 @@ library(ggplot2)
 ### Import data ###
 ###################
 
-data1 <- MPX_F19_contagem1_40x
-data2 <- MPX_F19_contagem2_40x
-data3 <- MPX_F19_contagem3_40x
+data1 <- read.csv("~/Dropbox/UFRN/LaSiD/SLP/Alunos Iniciacao Cientifica/Bartolomeu/IC/TCC/20132/XBM_corn_5-ASA_1-1.csv", sep=";")
+data2 <- read.csv("~/Dropbox/UFRN/LaSiD/SLP/Alunos Iniciacao Cientifica/Bartolomeu/IC/TCC/20132/XBM_corn_5-ASA_1-1.csv", sep=";")
+data3 <- read.csv("~/Dropbox/UFRN/LaSiD/SLP/Alunos Iniciacao Cientifica/Bartolomeu/IC/TCC/20132/XBM_corn_5-ASA_1-1.csv", sep=";")
 d1 <- data1
 d2 <- data2
 d3 <- data3

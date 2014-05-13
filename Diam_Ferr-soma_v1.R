@@ -8,9 +8,9 @@ library(ggplot2)
 ### Importando dados ###
 ########################
 
-data1 <- MPX.F15_c1_2
-data2 <- MPX.F15_c2_2
-data3 <- MPX.F15_c3_2
+data1 <- read.csv("~/Dropbox/UFRN/LaSiD/SLP/Alunos Iniciacao Cientifica/Bartolomeu/IC/TCC/20132/XBM_corn_5-ASA_1-1.csv", sep=";")
+data2 <- read.csv("~/Dropbox/UFRN/LaSiD/SLP/Alunos Iniciacao Cientifica/Bartolomeu/IC/TCC/20132/XBM_corn_5-ASA_1-1.csv", sep=";")
+data3 <- read.csv("~/Dropbox/UFRN/LaSiD/SLP/Alunos Iniciacao Cientifica/Bartolomeu/IC/TCC/20132/XBM_corn_5-ASA_1-1.csv", sep=";")
 d1 <- data1
 d2 <- data2
 d3 <- data3
